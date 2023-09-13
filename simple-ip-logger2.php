@@ -1,6 +1,6 @@
 <?php
 $ip = $_SERVER['REMOTE_ADDR'];
-$dest = 'e.boffetti99@gmail.com';
+$dest = 'email@email.it';
 $oggetto = 'Nuovo indirizzo IP';
 $details = json_encode(file_get_contents("http://ipinfo.io/{$ip}/json"));
 $messaggio = print_r($details);
